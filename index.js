@@ -19,6 +19,7 @@ image2.setAttribute("src",randomDiceImage2);
 //changing h1 element text
 const heading = document.querySelectorAll("h1")[0];
 
+//conditions to determine winner/loser/draw
 if(randomNumber1 > randomNumber2){
     heading.innerHTML= "player 1 won🎉";
 }else if(randomNumber2 > randomNumber1){
